@@ -24,11 +24,13 @@
 }
 .container .item .content{
     position: absolute;
-    top: 350px;
-    left: 5px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
     color: #fff;
     background: rgba(0, 0, 0, 0.205);
     padding: 10px;
+    text-transform: capitalize;
 }
 .btn{
     position: absolute;
